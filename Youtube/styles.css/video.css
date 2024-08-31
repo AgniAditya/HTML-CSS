@@ -11,7 +11,7 @@
 .video-title{
     display: flex;
     width: 250px;
-    font-size: 13px;
+    font-size: 13px; 
     font-weight: bold;
     font-family: Arial;
 }
@@ -61,4 +61,38 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 20px;
     row-gap: 20px;
+}
+
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 5px;
+    bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;  
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.thumbnail-box{
+    position: relative;
+}
+
+.channel-stats{
+    width: 260px;
+}
+
+
+@media(max-width:1200px){
+    .grid-info{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(max-width:850px){
+    .grid-info{
+        grid-template-columns: 1fr 1fr;
+    }
 }

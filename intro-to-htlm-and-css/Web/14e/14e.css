@@ -1,0 +1,92 @@
+.body{
+    height: 2000px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    height: 7cap;
+    background-color: white;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.pfp-box{
+    width: 50px;
+    height: 50px;   
+}
+
+.pfp{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+}
+
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.right{
+    display: flex;
+    padding-right: 100px;
+}
+
+.add-friend{
+    border: none;
+    background-color: rgb(1, 117, 225);
+    color: white;
+    width: 85px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.add-friend:hover{
+    background-color: rgb(1, 117, 225,0.8);
+}
+
+.add-box{
+    width: 85px;
+    height: 30px;
+    box-shadow: 2px 2px 2px 0px gray;
+    border-radius: 5px;
+}
+
+.message{
+    border: none;
+    font-weight: bold;
+    width: 85px;
+    height: 30px;  
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.message:hover{
+    background-color: rgb(128, 128, 128,0.5);
+}
+
+.message-box{
+    margin-left: 20px;
+    width: 85px;
+    height: 30px;
+    box-shadow: 2px 2px 2px 0px gray;
+    border-radius: 5px;
+}

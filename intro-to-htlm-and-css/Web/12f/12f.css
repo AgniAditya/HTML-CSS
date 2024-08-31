@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(120, 82, 178);
+    height: 45px;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.home{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.Search{
+    border: none;
+    height: 25px;
+    border-radius: 20px;
+    padding-left: 20px;
+    flex: 1;
+}
+
+button{
+    width: 85px;
+    height: 30px;
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    border-radius: 2px;
+    margin-left: 150px;
+}

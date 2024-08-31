@@ -1,0 +1,61 @@
+.container{
+    width: 400px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pfp-contain{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.pfp{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100px;
+    margin: 0px;
+}
+
+.pf-holder{
+    flex: 1;
+}
+
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 3px;
+    font-size: 17px;
+}
+
+.username{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    padding: 3px;
+    font-size: 17px;
+}
+
+.acc-popularity{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    padding: 3px;
+    font-size: 17px;
+}
+
+.follow-button{
+    border: none;
+    background-color: rgb(53, 157, 255);
+    color: white;
+    font-weight: bold;
+    width: 70px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,513 @@
+.model-text{
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.Order-text{
+    font-family: Arial;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Touchless-text{
+    text-decoration: underline;
+}
+
+.dog-image{
+    width: 200px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dog1{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 100px;
+}
+
+.dog2{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.search-bar{
+    margin-top: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    border-width: 0.5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-left: 10px;
+    margin-bottom: 40px;
+}
+
+.url-bar{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 0px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    transition: border 0s;
+    margin-bottom: 40px;
+}
+
+.email-text{
+    text-align: center;
+    font-family: Arial;
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.signup-bar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px;
+    border-width: 0.5px;
+    border-radius: 2px;
+    margin-top: 0px;
+    border: solid;
+}
+
+.join-text{
+    text-align: center;
+    font-family: Arial;
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.join-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 101, 217);
+    color: white;
+    border: none;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+img.dog{
+    margin-right: 15px;
+    width: 100px;
+    border-radius: 100px;
+    vertical-align: middle;
+}
+
+.what-text{
+    font-family: Arial;
+    color: gray;
+    text-align: center;
+}
+
+.Tweet-button{
+    margin-left: 100px;
+    font-family: Arial;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(70, 157, 255);
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+}
+
+.Tweet-button:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.414);
+}
+
+.name-bar{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.para-text{
+    display: inline-block;
+    width: 300px;
+}
+
+.email-bar{
+    display: block;
+}
+
+.yes-button{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.no-button{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Google{
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.google-bar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    border-width: 0px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.google-text{
+    margin-top: 10px;
+    width: 135px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(128, 128, 128, 0.041);
+    font-family: arial;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.google-div{
+    width: 294px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.first{
+    margin-top: 50px;
+    width: 100px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.last{
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.Email{
+    display: block;
+    width: 212px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 7px;
+}
+
+.Sign{
+    width: 231px;
+    border: none;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ride-text{
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: arial;
+}
+
+.pickup-input{
+    display: block;
+    margin-bottom: 5px;
+    background-color: rgba(128, 128, 128, 0.133);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 300px;
+}
+
+.destination-input{
+    display: block;
+    margin-bottom: 25px;
+    background-color: rgba(128, 128, 128, 0.133);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 300px;
+}
+
+.request-button{
+    color: white;
+    background-color: black;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 110px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Schedule-button{
+    color: black;
+    background-color: rgba(128, 128, 128, 0.133);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.box1{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+}
+
+.box2{
+    width: 300px;
+    height: 90px;
+    border-color: gray;
+    border: solid;
+    border-width: 1px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.box3{
+    width: 365px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.878);
+}
+
+.install{
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 18px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.you{
+    margin-top: 5px;
+    color: gray;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    width: 350px;
+}
+
+.tweet-box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 460px;
+    height: 120px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.cat{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.oliver{
+    padding-left: 10px;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.friends{
+    padding-left: 10px;
+    font-family: arial;
+    font-size: 15px;
+    margin-top: 5px;
+    color: gray;
+}
+
+.add-friend{
+    width: 110px;
+    border: none;
+    background-color: rgb(3, 118, 212);
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.oliver-div{
+    margin-top: 40px;
+    margin-right: 10px;
+    width: 200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    vertical-align: top;
+    display: inline-block;
+}
+
+.cat-list{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 638px;
+    height: 323.333px;
+    margin-bottom: 100px;
+}
+
+.meow-layout{
+    width: 100px;
+    display: inline-block;
+    height: fit-content;
+    vertical-align: top;
+    margin-right: 0px;
+    margin-left: 20px;
+}
+
+.meow{
+    width: 95px;
+    height: 95px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.oliver-text{
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.oliver-text,
+.cat-text,.Popular-text{
+    font-family: arial;
+    font-size: 22px;
+}
+
+.cat-text,.Popular-text{
+    color: gray;
+}
+
+.cat-text{
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.Popular-text{
+    margin-top: 5px;
+}
+
+.Follow-button{
+    margin-top: 25px;
+    margin-left: 150px;
+    border: none;
+    background-color: rgb(70, 157, 255);
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mutual-image{
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.mutual-box{
+    display: grid;
+    grid-template-columns:40px 126px ;
+}
+
+.mutual-text{
+    height: 40px;
+    margin-top: 10px;
+}
+
+.mutual-img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>
+            CSS Positing
+        </title>
+    </head>
+    
+    <body style="
+    height: 1000px;
+    padding-top: 60px;
+    padding-left: 120px;
+    ">
+        <div style=
+        "
+        background-color: black;
+        color: white;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 40px;
+        z-index: 1;
+        ">
+            Header
+        </div>
+
+        <div style=
+        "
+        background-color: cadetblue;
+        color: white;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 40px;
+        width: 100px;
+        ">
+            SideBar
+
+            <div style=
+        "
+        position: absolute;
+        background-color: gray;
+        right: 0px;
+        top: 0px;
+        ">
+            close
+        </div>
+        </div>
+
+        <div style=
+        "
+        position: absolute;
+        background-color: gray;
+        right: 30px;
+        top: 60px;
+        ">
+            absolute
+        </div>
+
+        <div style=
+        "
+        background-color: aqua;
+        height: 200px;
+        width: 200px;
+        
+        ">
+            Div1
+        </div>
+
+        <div style=
+        "
+        background-color: pink;
+        height: 200px;
+        width: 200px;
+        position: relative;
+        ">
+            Div2
+
+            <div style=
+        "
+        position: absolute;
+        background-color: gray;
+        right: 10px;
+        bottom: 10px;
+        ">
+            absolute
+        </div>
+        </div>
+    
+    </body>
+
+</html>
